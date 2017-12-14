@@ -66,6 +66,7 @@ header img{
   background-size: contain;
   border: 1px solid white;
   padding: 30px;
+  background-position: center;
 
 }
 
@@ -73,18 +74,24 @@ header img{
   background-color: #f7b617;
   padding: 30px 20px;
   color: #fff;
-  height: 500px;
 
 }
 
 .aplication-desktop{
-  padding: 0px 50px;
+  font-size: 18px;
+
 }
 
+.title{
+  display: inline-block;
+}
 
 @media (max-width:768px){
 .version-desktop{
   display: none;
+  }
+  .aplication-desktop{
+    display: none;
   }
 
 }
@@ -93,4 +100,10 @@ header img{
   .version-mobile{
     display: none;
   }
+  main h3, strong{
+    display: none;
+  }
+.aplication-movil{
+  height: -webkit-fill-available;
+}
 }
