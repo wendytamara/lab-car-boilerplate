@@ -42,6 +42,10 @@
   font-weight: 700;
 }
 
+section{
+  width: 100%;
+}
+
 header img{
   width: 60%;
 }
@@ -55,10 +59,34 @@ header img{
   width: 60px;
 }
 
+.img-phone{
+  background-image: url('../assets/images/iPhone6Plus.png');
+  height: -webkit-fill-available;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid white;
+  padding: 30px;
+
+}
+
+.aplication-movil{
+  background-color: #f7b617;
+  padding: 30px 20px;
+  color: #fff;
+  height: 500px;
+
+}
+
+.aplication-desktop{
+  padding: 0px 50px;
+}
+
+
 @media (max-width:768px){
 .version-desktop{
   display: none;
   }
+
 }
 
 @media (min-width:768px){
