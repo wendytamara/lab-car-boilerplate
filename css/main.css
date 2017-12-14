@@ -1,1 +1,68 @@
 /* Los estilos de tu proyecto */
+.img-fondo{
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: -webkit-fill-available;
+  background-repeat: no-repeat;
+
+
+}
+
+.header {
+  height: 100px;
+}
+
+.form-registerer{
+  background-color: #f7b617;
+  float: right;
+  padding: 25px;
+  margin-top: 5%;
+  color: #fff;
+
+}
+.btn-register{
+  padding: 10px;
+}
+
+.version-desktop img{
+  width: 100px;
+  padding: 0px 10px;
+}
+
+.version-desktop h3{
+  font-size: 2.5em;
+}
+
+.version-desktop span{
+  font-size: 1.5em;
+}
+
+.btn{
+  font-weight: 700;
+}
+
+header img{
+  width: 60%;
+}
+
+.version-mobile h1{
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.version-mobile h1 img{
+  width: 60px;
+}
+
+@media (max-width:768px){
+.version-desktop{
+  display: none;
+  }
+}
+
+@media (min-width:768px){
+  .version-mobile{
+    display: none;
+  }
+}
