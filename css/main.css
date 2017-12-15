@@ -15,7 +15,6 @@
 
 .form-registerer{
   background-color: #f7b617;
-  /*float: right;*/
   padding: 20px 45px;
   margin-top: 5%;
   color: #fff;
@@ -42,60 +41,74 @@
   font-weight: 700;
 }
 
-section{
-  width: 100%;
-}
 
 header img{
-  width: 60%;
+  width: 80%;
 }
 
 .version-mobile h1{
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .version-mobile h1 img{
-  width: 60px;
+  width: 80px;
 }
 
 .img-phone{
   background-image: url('../assets/images/iPhone6Plus.png');
   height: -webkit-fill-available;
   background-repeat: no-repeat;
-  border: 1px solid white;
-  padding: 30px;
   background-position: center;
 
 }
 
 .section-download-app {
   background-color: #f7b617;
-  padding: 30px 20px;
+  padding: 40px 20px;
   color: #fff;
-
 }
-
 
 .title{
   display: inline-block;
 }
 
+.img-driver{
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 80vh;
+}
+
+.text-container{
+  color: #fff;
+  font-size: 25px;
+  margin-top: 70px;
+}
+
+.boton{
+  color: #fff;
+  background-color: #f7b617;
+}
+
+
 @media (max-width:768px){
-
-
-
+  .img-phone {
+    background-size: 55%;
+    border: 2px solid white;
+  }
 }
 
 @media (min-width:768px){
 
-  main h3, strong {
-    display: none;
-  }
-  .aplication-movil{
-    height: -webkit-fill-available;
-  }
   .form-registerer{
     float: right;
+  }
+
+  .img-phone{
+    background-size: contain;
+  }
+  .section-download-app{
+    height: 400px;
   }
 }
