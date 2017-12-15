@@ -15,8 +15,8 @@
 
 .form-registerer{
   background-color: #f7b617;
-  float: right;
-  padding: 25px;
+  /*float: right;*/
+  padding: 20px 45px;
   margin-top: 5%;
   color: #fff;
 
@@ -63,47 +63,39 @@ header img{
   background-image: url('../assets/images/iPhone6Plus.png');
   height: -webkit-fill-available;
   background-repeat: no-repeat;
-  background-size: contain;
   border: 1px solid white;
   padding: 30px;
   background-position: center;
 
 }
 
-.aplication-movil{
+.section-download-app {
   background-color: #f7b617;
   padding: 30px 20px;
   color: #fff;
 
 }
 
-.aplication-desktop{
-  font-size: 18px;
-
-}
 
 .title{
   display: inline-block;
 }
 
 @media (max-width:768px){
-.version-desktop{
-  display: none;
-  }
-  .aplication-desktop{
-    display: none;
-  }
+
+
 
 }
 
 @media (min-width:768px){
-  .version-mobile{
+
+  main h3, strong {
     display: none;
   }
-  main h3, strong{
-    display: none;
+  .aplication-movil{
+    height: -webkit-fill-available;
   }
-.aplication-movil{
-  height: -webkit-fill-available;
-}
+  .form-registerer{
+    float: right;
+  }
 }
