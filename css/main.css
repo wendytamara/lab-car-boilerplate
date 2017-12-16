@@ -29,14 +29,6 @@
   padding: 0px 10px;
 }
 
-.version-desktop h3{
-  font-size: 2.5em;
-}
-
-.version-desktop span{
-  font-size: 1.5em;
-}
-
 .btn{
   font-weight: 700;
 }
@@ -149,6 +141,11 @@ footer{
 .logo-footer img{
   padding-top: 25px;
 }
+
+.container-footer{
+  font-size: 1.2em;
+}
+
 
 @media (max-width:768px){
   .img-phone {
