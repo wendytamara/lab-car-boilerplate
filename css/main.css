@@ -95,11 +95,11 @@ header img{
 }
 
 .boton{
-  margin: 25px auto 60px;
+  margin: 25px 80px;
 }
 
 .img-ruta{
-  background-image: url("../assets/images/mapa-movil.jpg");
+
   height: -webkit-fill-available;
   background-repeat: no-repeat;
   height: 400px;
@@ -156,7 +156,7 @@ footer{
     border: 2px solid white;
   }
   .img-ruta{
-
+    background-image: url("../assets/images/mapa-movil.jpg");
   }
 }
 
@@ -171,5 +171,8 @@ footer{
   }
   .section-download-app{
     height: 400px;
+  }
+    .img-ruta{
+  background-image: url("../assets/images/mapa.jpg");
   }
 }
