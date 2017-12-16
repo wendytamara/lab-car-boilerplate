@@ -110,11 +110,28 @@ header img{
   margin: 25px auto 60px;
 }
 
+.img-ruta{
+  background-image: url("../assets/images/mapa-movil.jpg");
+  height: -webkit-fill-available;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.img-ruta-movil{
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
 
 @media (max-width:768px){
   .img-phone {
     background-size: 55%;
     border: 2px solid white;
+  }
+  .img-ruta{
+
   }
 }
 
