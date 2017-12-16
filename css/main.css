@@ -86,9 +86,28 @@ header img{
   margin-top: 70px;
 }
 
-.boton{
-  color: #fff;
+
+.color-found{
   background-color: #f7b617;
+  color: #fff;
+}
+
+.camp-text{
+  color: white;
+  background-color: #f7b617;
+  border-radius: 8px;
+  border: 2px solid white;
+  position: relative;
+  left:50px;;
+  bottom: 20px;
+}
+
+.section-inputs{
+  margin-top: 40px;
+}
+
+.boton{
+  margin: 25px auto 60px;
 }
 
 
