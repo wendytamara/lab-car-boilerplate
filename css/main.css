@@ -83,9 +83,8 @@ header img{
 .text-container{
   color: #fff;
   font-size: 25px;
-  margin-top: 70px;
-}
 
+}
 
 .color-found{
   background-color: #f7b617;
@@ -124,10 +123,36 @@ header img{
   padding: 10px;
 }
 
+.section-container{
+  padding: 50px;
+}
+
+/*  clases para el footer   */
+footer{
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.img-logo{
+  padding: 20px;
+}
+
+.messy-lists{
+  list-style: none;
+  line-height: 2.5;
+}
+
+.content-icons span{
+  padding: 2px;
+}
+
+.logo-footer img{
+  padding-top: 25px;
+}
 
 @media (max-width:768px){
   .img-phone {
-    background-size: 55%;
+    background-size: 180px;
     border: 2px solid white;
   }
   .img-ruta{
