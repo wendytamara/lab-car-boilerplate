@@ -1,11 +1,19 @@
-/* Los estilos de tu proyecto */
+/* clases reutilizables*/
+.color-letra{
+  color: #fff;
+}
+
+.color-found{
+  background-color: #f7b617;
+  color: #fff;
+}
+
 .img-fondo{
   background-image: url(../assets/images/taxi.jpg);
   background-size: cover;
   background-position: center bottom;
   height: -webkit-fill-available;
   background-repeat: no-repeat;
-
 
 }
 
@@ -14,12 +22,11 @@
 }
 
 .form-registerer{
-  background-color: #f7b617;
   padding: 20px 45px;
   margin-top: 5%;
-  color: #fff;
 
 }
+
 .btn-register{
   padding: 10px;
 }
@@ -56,31 +63,14 @@ header img{
 }
 
 .section-download-app {
-  background-color: #f7b617;
-  padding: 40px 20px;
-  color: #fff;
-}
-
-.title{
-  display: inline-block;
+  padding: 40px 20px 0px;
 }
 
 .img-driver{
   background-image: url("../assets/images/conduce.jpg");
   background-size: cover;
   background-position: right;
-  height: 80vh;
-}
-
-.text-container{
-  color: #fff;
-  font-size: 25px;
-
-}
-
-.color-found{
-  background-color: #f7b617;
-  color: #fff;
+  height: 70vh;
 }
 
 .camp-text{
@@ -138,12 +128,19 @@ footer{
   padding: 2px;
 }
 
-.logo-footer img{
+.logo-footer {
   padding-top: 25px;
 }
 
 .container-footer{
   font-size: 1.2em;
+}
+
+/* 3era seccion - clases para la version desktop*/
+.driver{
+  background-color: rgba(0,0,0,0.58);
+  height: -webkit-fill-available;
+  padding: 80px 40px;
 }
 
 
