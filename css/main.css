@@ -26,6 +26,13 @@
   margin-top: 5%;
 
 }
+.desktop{
+  transform: translateY(50%);
+}
+
+ .mobile{
+  transform: translateY(100%);
+}
 
 .btn-register{
   padding: 10px;
@@ -146,7 +153,6 @@ footer{
 
 @media (max-width:768px){
   .img-phone {
-    background-size: 180px;
     border: 2px solid white;
   }
   .img-ruta{
