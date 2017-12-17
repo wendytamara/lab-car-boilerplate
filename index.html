@@ -55,7 +55,7 @@
                   <span>Viaja con</span>
                   <img src="assets/images/logoBlanco.png" alt="logo de labcar">
                 </div>
-                <button class="btn btn-default">REGISTRATE</button>
+                <button class="btn btn-default" data-toggle="modal" data-target="#myModalRegisterer">REGISTRATE</button>
                 <hr>
                 <button class="btn btn-default">Conviertete en un conductor</button>
               </div>
@@ -201,20 +201,20 @@
             <form class="container-fluid" >
               <div class="row">
                 <div class="col-sm-6 col-sm-offset-3 bg-warning padding-large-horizontal">
-                  <div class="input-group">
+                  <div class="input-group btn-register">
                     <span class="input-group-addon">
                       <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                     </span>
                     <input type="text" class="form-control" aria-label="...">
                   </div>
-                  <div class="input-group">
+                  <div class="input-group btn-register">
                     <span class="input-group-addon">
                       <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
                     </span>
                     <input type="text" class="form-control" aria-label="...">
                   </div>
-                  <button type="button" class="btn btn-warning">LOGING</button>
-                  <p> Forgot password? <a class="text-danger" href="#">click here</a></p>
+                  <button type="button" class="btn btn-warning btn-register center-block">LOGING</button>
+                  <p class="btn-register"> Forgot password? <a class="text-danger" href="#">click here</a></p>
                 </div>
               </div>
             </form>
@@ -224,6 +224,46 @@
     </div>
   </div>
 
+  <!-- 2do Modal REGISTRATE -->
+    <div class="modal fade" id="myModalRegisterer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="bg-info">
+            <form class="modal-body container-fluid"> <!-- boton de cerrar-  modal -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <button type="button" class="btn btn-primary btn-lg btn-block">Ya tienes una cuenta?</button>
+              <p class="text-center"> O CREA UNA CUENTA NUEVA</p>
+              <div class="row">
+                <div class="form-group col-sm-6">
+                  <input class="form-control" placeholder="Nombre">
+                </div>
+                <div class="form-group col-sm-6">
+                  <input class="form-control" placeholder="Correo Electronico: ejemplo@correo.com">
+                </div>
+                <div class="form-group col-sm-12">
+                  <input class="form-control" placeholder="Telefono">
+                </div>
+                <div class="form-group col-sm-12">
+                  <input type="password" class="form-control" placeholder="Contraseña">
+                </div>
+                <div class="form-group col-sm-12">
+                  <input class="form-control" placeholder="Ciudad">
+                </div>
+                <div class="form-group col-sm-12">
+                  <input class="form-control" placeholder="Opcional (codigo de invitacion)">
+                </div>
+                <div class="form-group col-sm-12">
+                  <button type="button" class="btn btn-lg btn-block">Como te enteraste de nosotros? <span class="caret"></span> </button>
+                </div>
+                <div class="form-group col-sm-12">
+                  <button type="button" class="btn btn-primary btn-lg btn-block">ENVIAR</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
