@@ -28,7 +28,7 @@
               <ul class="nav navbar-nav">
                 <li><a href="#">Viaja</a></li>
                 <li><a href="#">Conduce</a></li>
-                <li><a href="#">Inicia sesion</a>
+                <li><a href="#" data-toggle="modal" data-target="#myModal" >Inicia sesion</a>
                 </li>
               </ul>
             </div>
@@ -125,8 +125,7 @@
       </article>
     </section>
 
-    <footer>
-      <div>  <!-- contenedor del footer version-mobile  -->
+    <footer>   <!-- contenedor del footer version-mobile  -->
         <div class="img-logo">
           <img src="assets/images/logoBlanco.png"   alt="logo de labCar">
           <hr>
@@ -179,7 +178,7 @@
             </div>
             <div class=" hidden-xs col-sm-2 col-sm-pull-1 position">
               <img class="logo-footer img-responsive" src="assets/images/enBadgeWebGeneric.png"     alt="logo google play">
-              <img class="logo-footer img-responsive" src="assets/images/appstore.png" alt="logo apple">
+              <img class="logo-footer img-responsive block-center" src="assets/images/appstore.png" alt="logo apple">
             </div>
           </div>
           <hr>
@@ -187,6 +186,48 @@
         </div>
       </div>
     </footer>
+
+
+<!--  modal1 INICIAR SESION  -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="bg-info">
+          <div class="modal-header"> <!-- boton de cerrar-  modal -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>  <!-- imagen de usuario -  modal -->
+            <img class="img-responsive center-block" src="assets/images//usuario.png" alt="imagen de usuario">
+          </div>
+          <div class="modal-body">  <!-- formulario de iniciar sesion-  modal -->
+            <form class="container-fluid" >
+              <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 bg-warning padding-large-horizontal">
+                  <div class="input-group">
+                    <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    </span>
+                    <input type="text" class="form-control" aria-label="...">
+                  </div>
+                  <div class="input-group">
+                    <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                    </span>
+                    <input type="text" class="form-control" aria-label="...">
+                  </div>
+                  <button type="button" class="btn btn-warning">LOGING</button>
+                  <p> Forgot password? <a class="text-danger" href="#">click here</a></p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
 
     <script type="text/javascript" src="vendors/bootstrap/js/jquery.js">
     </script>
