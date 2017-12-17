@@ -127,7 +127,6 @@ footer{
 }
 
 .messy-lists{
-  list-style: none;
   line-height: 2.5;
 }
 
@@ -148,6 +147,16 @@ footer{
   background-color: rgba(0,0,0,0.58);
   height: -webkit-fill-available;
   padding: 80px 40px;
+}
+
+.position{
+  position: relative;
+  top: 170px;
+}
+
+.position-icons{
+  position: relative;
+  top: 300px;
 }
 
 
