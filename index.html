@@ -57,7 +57,7 @@
                 </div>
                 <button class="btn btn-default" data-toggle="modal" data-target="#myModalRegisterer">REGISTRATE</button>
                 <hr>
-                <button class="btn btn-default">Conviertete en un conductor</button>
+                <button class="btn btn-default"data-toggle="modal" data-target="#myModalRegistererDriver">Conviertete en un conductor</button>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
             <div class="col-xs-12  col-sm-4 col-sm-offset-8 color-letra driver">
               <h3> <strong>Conduce cuando quieras</strong></h3>
               <p>LabCar es una opcion flexible para alcanzar tus metas financieras.</p>
-              <button class="btn btn-default color-found">Convierte en un conductor</button>
+              <button class="btn btn-default color-found" data-toggle="modal" data-target="#myModalRegistererDriver">Convierte en un conductor</button>
             </div>
           </div>
         </div>
@@ -265,6 +265,72 @@
       </div>
     </div>
 
+ <!-- 3er MODAL - CONVIERTETE EN CONDUCTOR -->
+
+ <div class="modal fade" id="myModalRegistererDriver" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="bg-info">
+        <form class="modal-body container-fluid"> <!-- boton de cerrar-  modal -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="row">
+              <div class="form-group col-sm-12">
+                <label>Tienes vehiculo de 4 puertas?</label>
+                <select class="form-control">
+                  <option> Si </option>
+                  <option>No</option>
+                </select>
+              </div>
+              <div class="form-group col-sm-12">
+                <label> Marca</label>
+                <select class="form-control">
+                  <option> Elige la marca del vehiculo </option>
+                  <option>Ford</option>
+                  <option> Jaguar </option>
+                  <option>Lamborghini</option>
+                  <option> Cadillac </option>
+                  <option>BMW</option>
+                  <option> Ferrari </option>
+                  <option>Kia</option>
+                </select>
+              </div>
+              <p class="col-sm-12"> No ves tu vehiculo en la lista? Envia un correo electronico <a href="#"> sociosmdv@uber.com </a> </p>
+              <div class="form-group col-sm-12">
+                <label> Modelo</label>
+                <select class="form-control">
+                  <option> Modelo 1 </option>
+                  <option>Modelo 2 </option>
+                  <option> Modelo 3 </option>
+                  <option>Modelo 4 </option>
+                </select>
+              </div>
+              <div class="form-group col-sm-12">
+                <label> Año </label>
+                <select class="form-control">
+                  <option> 1990 </option>
+                  <option> 1991 </option>
+                  <option>  1992 </option>
+                  <option> 1993 </option>
+                  <option> 1994 </option>
+                  <option> 1995 </option>
+                  <option>  1996 </option>
+                  <option> 1997 </option>
+                </select>
+              </div>
+              <div class="form-group col-sm-12">
+                <label>Numero de la matricula</label>
+                <input type="text" class="form-control" placeholder="Numero de la matricula">
+              </div>
+              <p class="col-sm-12">La informacion de la matricula ayuda a los clientes a identificar tu vehiculo.</p>
+              <div class="container-fluid">
+                <button type="button" class="btn btn-default btn-block">ENVIAR</button>
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
