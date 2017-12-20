@@ -7,12 +7,13 @@
   background-color: #f7b617;
   color: #fff;
 }
+/* clases para el header*/
 
 .img-fondo{
   background-image: url(../assets/images/taxi.jpg);
   background-size: cover;
   background-position: center bottom;
-  height: -webkit-fill-available;
+  height: 100vh;
   background-repeat: no-repeat;
 
 }
@@ -78,7 +79,7 @@ header img{
   background-image: url("../assets/images/conduce.jpg");
   background-size: cover;
   background-position: right;
-  height: 70vh;
+  height: 400px;
 }
 
 .camp-text{
@@ -100,8 +101,6 @@ header img{
 }
 
 .img-ruta{
-
-  height: -webkit-fill-available;
   background-repeat: no-repeat;
   height: 400px;
   background-position: bottom;
@@ -168,6 +167,19 @@ footer{
   background-color: #a9a9a9;
 }
 
+.border-white {
+    border: 2px white solid;
+    height: -webkit-fill-available;
+    width: 80%;
+}
+
+.hight{
+  height: 400px;
+}
+
+.bg-modal{
+  background-color: #08ac9d;
+}
 
 @media (max-width:768px){
   .img-phone {
@@ -175,6 +187,9 @@ footer{
   }
   .img-ruta{
     background-image: url("../assets/images/mapa-movil.jpg");
+  }
+  .navbar-brand{
+    padding: 15px 0px 0px !important;
   }
 }
 
@@ -187,10 +202,8 @@ footer{
   .img-phone{
     background-size: contain;
   }
-  .section-download-app{
-    height: 400px;
-  }
-    .img-ruta{
-  background-image: url("../assets/images/mapa.jpg");
+
+  .img-ruta{
+    background-image: url("../assets/images/mapa.jpg");
   }
 }

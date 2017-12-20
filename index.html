@@ -11,8 +11,8 @@
   </head>
   <body>
     <header>    <!-- version movil menu hamburguesa -->
-        <nav class="navbar-default">
-          <div class="container-fluid header">
+        <nav class="container-fluid">
+          <div class="navbar-default header navbar-fixed-top">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -74,13 +74,18 @@
             <h4 class="logo-footer">llega a tu destino aun mas rapido</h4>
           </div>
         </div>   <!-- 2da seccion img iphone -  version desktop -->
-        <div class="row hidden-xs section-download-app color-found">
-          <div class=" img-phone col-sm-3 col-sm-offset-1"> </div>
-          <div class=" col-sm-3 col-sm-offset-1">
-            <h3>Descarga la nueva app</h3>
-            <p>La version actualizada de LabCar esta llena de nuevas funciones
-              para llegar a donde quieras aun mas facil y rapido</p>
-            <p>Con solo tocar un boton, un auto llega justo a tu ubicacion. Subete y no te preocupes: tu conductor sabe exactamente a donde ir.</p>
+        <div class="row">
+          <div class="hidden-xs color-found col-sm-12 img-logo hight">
+            <div class="border-white">
+
+              <div class=" img-phone col-sm-4 col-md-3  col-sm-offset-1 col-md-offset-1"> </div>
+              <div class=" col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-2">
+                <h3>Descarga la nueva app</h3>
+                <p>La version actualizada de LabCar esta llena de nuevas funciones
+                  para llegar a donde quieras aun mas facil y rapido</p>
+                <p>Con solo tocar un boton, un auto llega justo a tu ubicacion. Subete y no te preocupes: tu conductor sabe exactamente a donde ir.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -192,7 +197,7 @@
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-        <div class="bg-info">
+        <div class="bg-modal">
           <div class="modal-header"> <!-- boton de cerrar-  modal -->
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>  <!-- imagen de usuario -  modal -->
             <img class="img-responsive center-block" src="assets/images//usuario.png" alt="imagen de usuario">
