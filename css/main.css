@@ -19,8 +19,8 @@
 }
 
 .header {
-  height: 100px;
-  padding: 20px 80px;
+  height: 15vh;
+  
 }
 
 .form-registerer{
@@ -33,7 +33,7 @@
 }
 
  .mobile {
-  transform: translateY(100%);
+  transform: translateY(130%);
 }
 
 .btn-register{
@@ -96,20 +96,11 @@ header img{
   margin-top: 40px;
 }
 
-.boton{
-  margin: 25px 80px;
-}
-
-.img-ruta{
-  background-repeat: no-repeat;
-  height: 400px;
-  background-position: bottom;
-  background-size: cover;
-}
 
 .img-ruta-movil{
   border: 2px solid #fff;
-  padding: 10px;
+  /* padding: 10px;
+  height: 50%; */
 }
 
 .section-container{
@@ -168,7 +159,7 @@ footer{
 }
 
 .border-white {
-    border: 2px white solid;
+    border: 2px #E07878 solid;
     height: -webkit-fill-available;
     width: 80%;
 }
@@ -181,15 +172,40 @@ footer{
   background-color: #08ac9d;
 }
 
+.modal-b {
+  padding-top: 15px;
+  border-radius: 15px;
+}
+
+.form-opt {
+  color: #000;
+  font-weight: 700;
+}
+
+
+/* de 0 a 768 */
+
+@media (min-width:100px) and (max-width:330px){
+  .img-phone {
+    background-size: contain !important;
+    height: 350px;
+  }
+}
+
 @media (max-width:768px){
   .img-phone {
     border: 2px solid white;
   }
-  .img-ruta{
-    background-image: url("../assets/images/mapa-movil.jpg");
-  }
+ 
   .navbar-brand{
     padding: 15px 0px 0px !important;
+  }
+  .header img {
+    width: 60%;
+    padding: 10px 20px;
+  }
+  .version-mobile h1 {
+    font-size: 2em;
   }
 }
 
@@ -203,7 +219,8 @@ footer{
     background-size: contain;
   }
 
-  .img-ruta{
-    background-image: url("../assets/images/mapa.jpg");
+  .header {
+    padding: 20px 80px;
   }
+
 }
