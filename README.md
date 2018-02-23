@@ -1,25 +1,17 @@
-# ***EJERCICIO LAB CAR***
+# *** LAB CAR***
 
 # *Objetivo:*
 
-> ### *En este reto, vamos a realizar una pagina web responsive con bootstrap. La estructura de la página y el diseño es la siguiente:*
+> ### *Lab-Car es una aplicacion que ofrece el servicio de taxis, la plataforma te permite conocer tu ubicacion actual, calcular el precio, el tiempo y los km que tomara llegar a tu destino, ademas puedes visualizar el trayecto que tomara el taxi.*
 
-## *MOVIL:*
+## *version movil*
 
 ![MOVIL](assets/images/version-movil.png)
 
-## *DESKTOP:*
+## *version desktop:*
 
 ![DESKTOP](assets/images/version-web.png)
 
---------------------------------
-
-## ***Trabajo realizado por Wendy Tamara***
 
 
-* Se realizo la pagina web adaptable (responsive) tanto para desktop como para dispositivos moviles, utilizando bootstrap.
-
-## *Proyecto desplegado en:*
-
-
-* [gh-pages](https://wendytamara.github.io/lab-car-boilerplate/ "Título del enlace")
+### *** Proyecto desarrollado para [Laboratoria](www.Laboratoria.la)***
