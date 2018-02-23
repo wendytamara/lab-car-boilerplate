@@ -1,4 +1,4 @@
-# *** LAB CAR***
+# ***LAB CAR***
 
 # *Objetivo:*
 
@@ -14,4 +14,4 @@
 
 
 
-### *** Proyecto desarrollado para [Laboratoria](www.Laboratoria.la)***
+### ***Proyecto desarrollado para [Laboratoria](www.Laboratoria.la)***
