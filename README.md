@@ -1,4 +1,4 @@
-# ***LAB CAR***
+LAB CAR
 
 > ### *Lab-Car es una aplicacion que ofrece el servicio de taxis, la plataforma te permite conocer tu ubicacion actual, calcular el precio, el tiempo y los km que tomara llegar a tu destino, ademas puedes visualizar el trayecto que tomara el taxi.*
 
